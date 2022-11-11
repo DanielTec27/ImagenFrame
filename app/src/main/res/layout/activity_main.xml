@@ -14,7 +14,8 @@
         android:onClick="verVideos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/fot"
-        tools:layout_editor_absoluteX="134dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -24,5 +25,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/camera"
         android:onClick="Grabar"
-        tools:layout_editor_absoluteX="134dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
